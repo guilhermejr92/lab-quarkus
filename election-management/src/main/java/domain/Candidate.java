@@ -1,7 +1,5 @@
 package domain;
 
-import java.util.Optional;
-import java.util.UUID;
 
 public record Candidate(String id,
                         Optional<String> photo,
